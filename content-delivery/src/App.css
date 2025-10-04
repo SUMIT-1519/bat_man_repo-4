@@ -1,0 +1,35 @@
+
+.app {
+  padding: 40px 20px;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  background-color: #f8f8f8; 
+}
+
+h1 {
+  color: #FF8C00;
+  margin-bottom: 25px;
+  font-weight: 200;
+  text-shadow: 2px 2px #333333;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 25px; 
+  max-width: 1200px;
+  margin: 0 auto; 
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;   
+  height: 100vh;         
+  width: 100%;          
+  font-size: 1.5em;
+  color:  #E63946;
+}
+.loading span {
+    font-weight: bold;
+}
